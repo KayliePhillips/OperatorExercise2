@@ -18,5 +18,14 @@ namespace OperatorExercise2
 
             Console.WriteLine($"The area of a circle with radius of {radius} is {area}");
         }
+        public static void LineSpacing()
+        {
+            Console.WriteLine();
+            Console.WriteLine();
+        }
+        
+
+
     }
+    
 }

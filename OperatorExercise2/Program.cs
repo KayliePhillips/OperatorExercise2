@@ -3,7 +3,7 @@
 
 using OperatorExercise2;
 Console.WriteLine("-----------------Exercise 1--------------");
-Console.WriteLine();
+Methods.LineSpacing();
 
 int a = 17;
 int b = 4;
@@ -20,23 +20,22 @@ int remainder = a % b;
 
 Console.WriteLine($"{a}/{b} is {quotient} remainder {remainder}");
 
-Console.WriteLine();
-Console.WriteLine();
+
+Methods.LineSpacing();
 //Exercise 2:
 //Create a method that will Calculate the area of a circle based on its radius
 Console.WriteLine("-----------------Exercise 2--------------");
-Console.WriteLine();
-Console.WriteLine();
+Methods.LineSpacing();
 
 Methods.AreaOfCircle();
 
 
-Console.WriteLine();
-Console.WriteLine();
+Methods.LineSpacing();
 ///Thought Exercise
+
 Console.WriteLine("-----------------Thought Exercise --------------");
-Console.WriteLine();
-Console.WriteLine();
+
+Methods.LineSpacing();
 //What is the value of k?
 
 var i = 3;
